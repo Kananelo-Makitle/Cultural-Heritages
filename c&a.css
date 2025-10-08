@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  paddding: 0;
+  background: #fdfaf6;
+  color: #333;
+}
+ header {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.crafts-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.craft-card{
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.craft-crad img{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.craft-card a{
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.craft-card a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+body{
+ font-family: Arial, sans-serif;
+ padding: 1rem;
+ background: #f0f0f0;
+}
+
+h1{
+ text-align: center;
+ color: #003366;
+}
+
+.contact form{
+ max-width: 500px;
+ margin: auto;
+ background: white;
+ padding: 1.5rem;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label{
+ display: block;
+ margin-top: 1rem;
+ font-weight: bold;
+}
+
+.contact-form input, contact-form textarea{
+ width: 100%;
+ padding: 0.8rem;
+ margin-top: 0.3rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ transition: border 0.3s;
+}
+
+.contact-form input:focus, contact-form textarea:focus{
+ border-color: #003366;
+ outline: none;
+}
+
+.contact-form button{ 
+ margin-top: 1.5rem;
+ background-color: #003366;
+ color: white;
+ padding: 0.8rem;
+ border: none;
+ border-radius: 4px;
+ width: 100%;
+ cursor: pointer;
+ transition: background 0.3s;
+}
+
+.contact-form button:hover{
+ background-color: #005599;
+}body{
+  font-family: Arial, sans-serif;
+  background: fdfaf6;
+  color #333;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1{
+  text-align: center;
+  background: #003366;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.clothing grid{
+ display-grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: 1.5rem;
+ paddimg: 0 1rem;
+}
+
+.clothing-item{
+ background: white;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ padding: 1rem;
+ text-align: center;
+ transition: transform 03.s;
+}
+
+.clothing-item img{
+ width: 20%;
+ border-radius: 6px;
+ transition: transform 0.3s;
+}
+
+.clothing-item:hover img{
+ transform: scale(1.05);
+}
+
+.clothing-item h2{
+ margin: 0.8rem 0 0.3rem;
+}
+
+.clothing-item a{
+ display: inline-block;
+ margin-top: 0.5rem;
+ color: #003366;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.clothing-item a: hover{
+ text-decoration: underline;
+}
+
+footer{
+ background: #003366;
+ color: white;
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+
+ 
+ 
+
